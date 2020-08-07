@@ -237,7 +237,7 @@ namespace LibGit2Sharp.Tests
             }
         }
 
-        [Fact]
+        [Fact(Skip="Not required by MB.")]
         public void CanAddWorktree()
         {
             var repoPath = SandboxWorktreeTestRepo();
@@ -255,7 +255,7 @@ namespace LibGit2Sharp.Tests
             }
         }
 
-        [Fact]
+        [Fact(Skip = "Not required by MB.")]
         public void CanAddLockedWorktree()
         {
             var repoPath = SandboxWorktreeTestRepo();
@@ -273,7 +273,7 @@ namespace LibGit2Sharp.Tests
             }
         }
 
-        [Fact]
+        [Fact(Skip = "Not required by MB.")]
         public void CanAddWorktreeForCommittish()
         {
             var repoPath = SandboxWorktreeTestRepo();

@@ -176,7 +176,7 @@ namespace LibGit2Sharp.Tests
             Assert.Equal(FileAttributes.Hidden, (attribs & FileAttributes.Hidden));
         }
 
-        [Fact]
+        [Fact(Skip="Not required by MB.")]
         public void CanFetchFromRemoteByName()
         {
             string remoteName = "testRemote";

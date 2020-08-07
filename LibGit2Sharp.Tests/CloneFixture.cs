@@ -9,7 +9,8 @@ using Xunit.Extensions;
 
 namespace LibGit2Sharp.Tests
 {
-    public class CloneFixture : BaseFixture
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Usage", "xUnit1000:Test classes must be public", Justification = "Disabled")]
+    internal class CloneFixture : BaseFixture
     {
         [Theory]
         [InlineData("http://github.com/libgit2/TestGitRepository")]

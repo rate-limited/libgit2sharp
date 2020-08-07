@@ -10,7 +10,7 @@ namespace LibGit2Sharp.Tests
 {
     public class FileHistoryFixture : BaseFixture
     {
-        [Theory]
+        [Theory(Skip = "Not required by MB.")]
         [InlineData("https://github.com/nulltoken/follow-test.git")]
         public void CanDealWithFollowTest(string url)
         {

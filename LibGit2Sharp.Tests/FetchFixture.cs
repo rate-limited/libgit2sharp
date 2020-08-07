@@ -8,7 +8,8 @@ using Xunit.Extensions;
 
 namespace LibGit2Sharp.Tests
 {
-    public class FetchFixture : BaseFixture
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Usage", "xUnit1000:Test classes must be public", Justification = "Disabled")]
+    internal class FetchFixture : BaseFixture
     {
         private const string remoteName = "testRemote";
 
