@@ -7,7 +7,8 @@ using Xunit.Extensions;
 
 namespace LibGit2Sharp.Tests
 {
-    public class NetworkFixture : BaseFixture
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Usage", "xUnit1000:Test classes must be public", Justification = "Disabled")]
+    internal class NetworkFixture : BaseFixture
     {
         [Theory]
         [InlineData("http://github.com/libgit2/TestGitRepository")]
