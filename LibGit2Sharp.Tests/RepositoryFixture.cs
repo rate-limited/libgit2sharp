@@ -706,7 +706,7 @@ namespace LibGit2Sharp.Tests
             }
         }
 
-        [Theory]
+        [Theory(Skip="Not required in MB.")]
         [InlineData("http://github.com/libgit2/TestGitRepository")]
         [InlineData("https://github.com/libgit2/TestGitRepository")]
         [InlineData("git://github.com/libgit2/TestGitRepository.git")]
@@ -750,7 +750,7 @@ namespace LibGit2Sharp.Tests
             Assert.Equal(detachedHeadSha, head.TargetIdentifier);
         }
 
-        [Theory]
+        [Theory(Skip = "Not required in MB.")]
         [InlineData("http://github.com/libgit2/TestGitRepository")]
         public void ReadingReferenceRepositoryThroughListRemoteReferencesThrows(string url)
         {
@@ -763,7 +763,7 @@ namespace LibGit2Sharp.Tests
             }
         }
 
-        [Theory]
+        [Theory(Skip = "Not required in MB.")]
         [InlineData("http://github.com/libgit2/TestGitRepository")]
         public void ReadingReferenceTargetFromListRemoteReferencesThrows(string url)
         {
