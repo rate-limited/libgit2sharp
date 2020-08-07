@@ -8,6 +8,7 @@
     <Copyright>Copyright © LibGit2Sharp contributors</Copyright>
     <PackageTags>libgit2 git</PackageTags>
     <PackageProjectUrl>https://github.com/libgit2/libgit2sharp/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/rate-limited/libgit2sharp</RepositoryUrl>
     <Authors>LibGit2Sharp contributors</Authors>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
